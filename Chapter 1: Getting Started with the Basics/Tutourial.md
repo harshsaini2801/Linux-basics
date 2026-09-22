@@ -1,4 +1,31 @@
-#                                                    Getting Started with Basics                                                              
+#                                                    Getting Started with Basics    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Topic to be covered :-
+- Introductory Terms and Concepts 
+- The Terminal 
+- The Linux Filesystem 
+- Basic Commands in Linux 
+- Finding Yourself with pwd
+- Checking Your Login with whoami
+- Navigating the Linux Filesystem 
+- Getting Help 
+- Referencing Manual Pages with man
+- Finding Stuff 
+- Searching with locate 
+- Finding Binaries with whereis 
+- Finding Binaries in the PATH Variable with which 
+- Performing More Powerful Searches with find 
+- Filtering with grep
+- Modifying Files and Directories 
+- Creating Files
+- Creating a Directory 
+- Copying a File
+- Renaming a File
+- Contents in Detail
+- Removing a File
+- Removing a Directory 
+- Exercises 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Introductory Terms and Concepts
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
