@@ -66,4 +66,31 @@ but other popular shells include the C shell and Z shell. I will be using the ba
 This is a command line interface (CLI).
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### The Linux Filesystem
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+```mermaid
+flowchart TD
+    ROOT["/"]
+
+    ROOT --> BOOT["/boot<br/>Kernel image"]
+    ROOT --> HOME["/home<br/>User directories"]
+    ROOT --> PROC["/proc<br/>View of internal<br/>kernel data"]
+    ROOT --> DEV["/dev<br/>Special device files"]
+    ROOT --> SBIN["/sbin<br/>Binaries"]
+    ROOT --> USR["/usr"]
+    ROOT --> ROOTDIR["/root<br/>Superuser's home directory"]
+    ROOT --> ETC["/etc<br/>System configuration files"]
+    ROOT --> MNT["/mnt<br/>General-purpose<br/>mount point"]
+    ROOT --> BIN["/bin<br/>Binaries"]
+    ROOT --> LIB["/lib<br/>Libraries"]
+
+    USR --> USRBIN["/usr/bin<br/>More binaries"]
+    USR --> USRLIB["/usr/lib<br/>More libraries"]
+
+    classDef folder fill:#fff,stroke:#222,stroke-width:1px,color:#000;
+    class ROOT,BOOT,HOME,PROC,DEV,SBIN,USR,ROOTDIR,ETC,MNT,BIN,LIB,USRBIN,USRLIB folder;
+```
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
