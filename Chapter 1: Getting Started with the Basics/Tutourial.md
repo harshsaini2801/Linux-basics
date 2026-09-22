@@ -69,7 +69,7 @@ This is a command line interface (CLI).
 ### The Linux Filesystem
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```text
-**/**
+/
 ├── /root
 │   └── Superuser's home directory
 │
@@ -107,6 +107,19 @@ This is a command line interface (CLI).
     └── /usr/lib
         └── More libraries
 ```
+**/root** The home directory of the all-powerful root user
+
+**/etc** Generally contains the Linux configuration files—files that control when and how programs start up
+
+**/home** The user’s home directory
+
+**/mnt** Where other filesystems are attached or mounted to the filesystem
+
+**/media** Where CDs and USB devices are usually attached or mounted to the filesystem
+
+**/bin** Where application binaries (the equivalent of executables in Microsoft Windows or applications in macOS) reside
+
+**/lib** Where you’ll find libraries (shared programs that are similar to Windows DLLs)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
