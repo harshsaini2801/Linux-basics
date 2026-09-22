@@ -1,4 +1,4 @@
-                                                                      # Getting Started with the Basic
+                                                                # Getting Started with the Basic
 
                                                                       
 ### Introductory Terms and Concepts
