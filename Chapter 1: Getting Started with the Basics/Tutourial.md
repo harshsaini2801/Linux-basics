@@ -155,7 +155,7 @@ kali
 kali>cd /etc
 kali:/etc>
 ```
-**
+
 
 
 
